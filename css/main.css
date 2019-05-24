@@ -1,0 +1,191 @@
+/* margin: 0 sets the body margin to 0,
+the fonta family sets the font to first use arial then Helvetica then sans-serif,
+background #ddd sets the background color to the color assigned to the hex code */
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #ddd;
+}
+
+/* changes the font to serif for any tag with the class of bw */
+.bw{
+  font-family: serif;
+}
+
+/* changes the font size to 2.5em for any tag with the class of bwh */
+.bwh {
+  font-size: 2.5em;
+}
+
+/* changes the font to sans-serif for any tag with the class of cl */
+.cl{
+  font-family: sans-serif;
+}
+
+/* changes the font to constantia for any tag with the class of hy */
+.hy {
+  font-family: "Constantia";
+}
+
+/* changes the font to calibri for any tag with the class of gy */
+.gy {
+  font-family: "Calibri";
+}
+/* Style the side navigation
+the height is set at 100% this means it goes from the top of the page to the bottom,
+the width is set to 200px so this means that it only takes up 200 pixels which is a short part of the screen,
+fixed position means the navigation bar does not move from the left side of the screen,
+z-index: 1 definces the specific stack order of elements
+there is no padding to the top or left of the navigation background
+the background color is set to the color assigned to the hex cloudflare
+the overflow-x: hidden means the content is clippedand there is no scrolling
+*/
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links
+makes the font color white,
+adds a 16px padding,
+makes sure there is no text decoration,
+makes the display block which means it starts each block element on a new line */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover
+when hovered, the background color changes to #ddd and the font color turns black */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content
+any item with the class of content moves 200px to the left and adds a 20px padding*/
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+
+/* all footers have
+text aligned to center
+font size is 0.9em
+there is a 2px solid black border on top
+there is a 10px top padding
+there is a 20px bottom padding
+the position is fix which means it does not move from the bottom of the page
+it spands the entire bottom
+the background color is #111
+ and the text color is white */
+footer {
+text-align: center;
+font-size: 0.9em;
+border-top: 2px solid black;
+padding-top: 10px;
+padding-bottom: 20px;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #111;
+color: white;
+}
+
+/* changes the font to Agency FB, size to 1em, and colors the text red for any tag with the class of li */
+.li {
+  font-family: "Agency FB";
+  font-size: 1em;
+  color: red;
+}
+
+/* any li and dt elements had
+a font family of cornerstone and font size of 1.25em*/
+li, dt {
+  font-family: "Cornerstone";
+  font-size: 1.25em;
+}
+
+/* any dd elements had a font family of cornerstone and font size of 1em*/
+dd {
+  font-family: "Cornerstone";
+  font-size: 1em;
+}
+
+/* any items with the class of pic had
+a blocked display
+had margin that inherited to the right
+the height was as tall as the page but half the width of the page */
+.pic {
+  display: block;
+  margin-right: inherit;
+  height: 100%;
+  width: 50%;
+}
+
+/* all divs with classes of gallery had margin of 50px
+1px solid #ccc border,
+floated to the left,
+and had a width of 180px*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+/* all divs with classes of gallery:hover has a 1px solid #777 border*/
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+/* all divs with classes of img had a width of 100% and the height was the orginal size*/
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* all divs with classes of desc had a padding of 15 px
+ and the text is aligned to the center*/
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* tables took up 99% of the width of the page*/
+table{
+  width: 99%;
+}
+
+/* th and td elements had a 8px padding and 1px solid #ddd border bottom*/
+th, td{
+  padding: 8px;
+  border-bottom: 1 px solid #ddd;
+}
+
+/* th elements had a 50px height, background color of #111, and the wording was white*/
+th{
+  height: 50px;
+  background-color: #111;
+  color: white;
+}
+
+/* visited links had white wording and transparent backgrounds*/
+a:link, a:visited {
+  color: white;
+  background-color: transparent;}
+
+/* classes with ko had the item floating to the left so words could be typed to the right*/
+.ko {
+  float: left;
+}
