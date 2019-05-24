@@ -7,6 +7,16 @@ body {
   background: #ddd;
 }
 
+/* centers text with all h1 elemnets */
+h1 {
+  text-align: center;
+}
+
+/* aligns text to the left with le class */
+.le {
+  text-align: left;
+}
+
 /* changes the font to serif for any tag with the class of bw */
 .bw{
   font-family: serif;
@@ -165,6 +175,12 @@ div.desc {
 /* tables took up 99% of the width of the page*/
 table{
   width: 99%;
+  align: center;
+}
+
+/* aligns table to left */
+.lef {
+  align: left;
 }
 
 /* th and td elements had a 8px padding and 1px solid #ddd border bottom*/
@@ -185,7 +201,8 @@ a:link, a:visited {
   color: white;
   background-color: transparent;}
 
-/* classes with ko had the item floating to the left so words could be typed to the right*/
+/* classes with ko had the item floating to the left so words could be typed to the right and makes width 50%*/
 .ko {
   float: left;
+  width: 50%;
 }
