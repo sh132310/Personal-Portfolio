@@ -214,10 +214,11 @@ a:link, a:visited {
 
 /* sets the height to 50%,
 width to 40%,
-aligns to the right */
+floats image to the right */
 .ra {
   height: 50%;
   width: 40%;
+  float: right;
 }
 
 /* sets the height for all iframes to 550px and width to 750px */
