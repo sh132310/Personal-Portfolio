@@ -199,7 +199,8 @@ th{
 /* visited links had white wording and transparent backgrounds*/
 a:link, a:visited {
   color: white;
-  background-color: transparent;}
+  background-color: transparent;
+}
 
 /* classes with ko had the item floating to the left so words could be typed to the right and makes width 50%*/
 .ko {
