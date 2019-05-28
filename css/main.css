@@ -211,3 +211,16 @@ a:link, a:visited {
 .tcd {
   align: center;
 }
+
+/* sets the height to 50%,
+width to 40%,
+aligns to the right */
+.ra {
+  height: 50%;
+  width: 40%;
+}
+
+.if {
+  height: 550px;
+  width: 750px;
+}
