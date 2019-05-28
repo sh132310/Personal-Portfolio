@@ -206,3 +206,8 @@ a:link, a:visited {
   float: left;
   width: 50%;
 }
+
+/*aligns class tcd to center */
+.tcd {
+  align: center;
+}
