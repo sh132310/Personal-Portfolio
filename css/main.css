@@ -220,7 +220,8 @@ aligns to the right */
   width: 40%;
 }
 
-.if {
+/* sets the height for all iframes to 550px and width to 750px */
+iframe {
   height: 550px;
   width: 750px;
 }
